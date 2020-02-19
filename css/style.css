@@ -4,11 +4,21 @@
     box-sizing: border-box;
 }
 
-.container {
+#container {
+    width: 50vw;
     height: 100vh;
     display: flex;
+    margin: 0 auto;
 }
 
 .centra {
     margin: auto;
+}
+
+#festa {
+    display: none;
+}
+
+#festa.visible {
+    display: block;
 }

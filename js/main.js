@@ -13,7 +13,11 @@ for (var i = 0; i < mail.length; i++) {
     }
 }
 if (accettazione == true) {
-    console.log('sei ammesso');
+    console.log('Ti aspettiamo alla festa');
+    document.getElementById('ammesso').innerHTML = 'Ti aspettiamo alla festa';
+    document.getElementById('festa').setAttribute("class", 'visible');
 } else {
-    console.log('non sei ammesso');
+    console.log('Mi dispiace, torna a casa')
+    document.getElementById('non-ammesso').innerHTML = 'Mi dispiace, torna a casa';
+    document.getElementById('festa').setAttribute("class", 'visible');
 }
