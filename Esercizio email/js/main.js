@@ -21,7 +21,3 @@ if (accettazione == true) {
     document.getElementById('non-ammesso').innerHTML = 'Mi dispiace, torna a casa';
     document.getElementById('festa').setAttribute("class", 'visible');
 }
-
-
-//Esercizio 2
-//confrontare quale tra due numeri casuali è il più grande
