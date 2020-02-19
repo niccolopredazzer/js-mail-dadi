@@ -7,3 +7,11 @@ var dadoUno = Math.floor(Math.random() * 6)+1;
     console.log(dadoUno);
 var dadoDue = Math.floor(Math.random() * 6)+1;
     console.log(dadoDue);
+
+if (dadoUno > dadoDue) {
+    console.log('vince il primo dado')
+} else if (dadoUno == dadoDue) {
+    console.log('pareggio, tirate di nuovo')
+} else {
+    console.log('vince il secondo dado')
+}
